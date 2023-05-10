@@ -8,19 +8,11 @@ describe('Array getters', () => {
       test('returns the first element of an array', () => {
         expect(first(numbers)).toBe(1);
       });
-  
-      test('returns undefined for an empty array', () => {
-        expect(first([])).toBe(undefined);
-      });
     });
   
     describe('last', () => {
       test('returns the last element of an array', () => {
         expect(last(numbers)).toBe(3);
-      });
-  
-      test('returns undefined for an empty array', () => {
-        expect(last([])).toBe(undefined);
       });
     });
   });

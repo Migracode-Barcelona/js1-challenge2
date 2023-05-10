@@ -2,7 +2,7 @@ const fs = require('fs');
 
 test('exercise.js logs output correctly', () => {
   // Read the contents of the file
-  const fileContents = fs.readFileSync('M-array-loop/exercise.js', 'utf8');
+  const fileContents = fs.readFileSync('H-array-literals/exercise.js', 'utf8');
 
   // Use `eval` to execute the code in the file and capture the console output
   const logs = [];
@@ -11,7 +11,7 @@ test('exercise.js logs output correctly', () => {
 
   // Check if the logs match the expected output
   expect(logs).toEqual([
-    'Tuesday',
-    'Thursday'
+    '1,2,3,4,5,6,7,8,9,10',
+    "Daniel,Irina,Rares"
   ]);
 });

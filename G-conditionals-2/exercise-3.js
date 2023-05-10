@@ -33,3 +33,5 @@ console.log("'" + grade4 + "': " + calculateGrade(grade4));
   '70': B
   '55': C
   */
+
+  module.exports = { calculateGrade }

@@ -28,3 +28,5 @@ console.log(number3 + " is " + negativeOrPositive(number3));
   -1 is negative
   0 is positive
 */
+
+module.exports = { negativeOrPositive }

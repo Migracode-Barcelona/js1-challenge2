@@ -29,3 +29,5 @@ EXPECTED RESULT
 '50': passed
 '100': passed
 */
+
+module.exports = { studentPassed }

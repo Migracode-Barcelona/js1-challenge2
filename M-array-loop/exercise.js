@@ -14,10 +14,8 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-function logDaysStartingWithT(days) {
-  //your code here
+function logDaysStartingWithT(days){
+
 }
 
 logDaysStartingWithT(daysOfWeek);
-
-module.exports = {logDaysStartingWithT};

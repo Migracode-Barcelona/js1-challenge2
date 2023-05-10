@@ -30,3 +30,5 @@ console.log("'" + sentence3 + "': " + containsCode(sentence3))
     'draw your future': false
     'design your future': false
     */
+
+    module.exports = { containsCode }

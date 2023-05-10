@@ -26,4 +26,4 @@ The `>` symbol in the expression is a **comparison operator**. Comparison operat
 ## Exercise
 
 * Open `exercise.js` and follow the instructions.
-* Open a node console, and write some expressions that use comparison operators
+* Open a node console (by typing `node` in terminal) and write some expressions that use comparison operators
