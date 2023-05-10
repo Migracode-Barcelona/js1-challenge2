@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "codeswing.json": true,
+        ".*": true,
+        "node_modules": true,
+        "package-lock.json": true,
+        "package.json": true
+    }
+}
