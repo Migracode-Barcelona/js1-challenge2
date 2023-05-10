@@ -11,5 +11,8 @@ let n = 10;
 function sumTillNum(num){
 	//your code here
 }
+  
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
+module.exports = {sumTillNum}

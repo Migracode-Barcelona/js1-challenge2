@@ -18,6 +18,8 @@ var names = [];
 console.log(isEmpty(numbers));
 console.log(isEmpty(names));
 
+module.exports = isEmpty;
+
 /* 
   EXPECTED RESULT
   ---------------

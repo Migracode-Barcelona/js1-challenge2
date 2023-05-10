@@ -22,6 +22,8 @@ console.log(first(numbers));
 console.log(last(numbers));
 console.log(last(names));
 
+module.exports = {first, last};
+
 /* 
   EXPECTED RESULT
   ---------------
